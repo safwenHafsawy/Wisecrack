@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap'); /*navbar font-family */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap'); /*jumbotrons font-family */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap'); /*forms and cards font-family */
+
+body{
+  background-image: url('./img/download.png');
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin : 15px;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+#navbar{
+  margin: 10px;
+  border-radius: 15px ;
+  background: linear-gradient(to right, #145A32 0%, #196F3D 20%,  #1E8449 40%, #229954 60%, #27AE60 80%,  #7DCEA0 100%);
+}
+
+#navBrand{
+  font-family: 'Lobster', cursive;
+  color: whitesmoke;
+}
+
+#navItem{
+  font-family: 'PT Serif', serif;
+  color: whitesmoke;
+  text-decoration: none;
+  margin: 5px;
+}
+
+.jumbotron{
+  background-color: transparent	 !important;
+  font-family: 'Lobster', cursive;
+  margin-bottom: 0px;
+  padding: 50px !important;
+  color: black;
+  margin: 15px;
+  
+}
+
+
+#createForm{
+  width: 1000px;
+  border-radius: 25px;
+  border: 15px  hidden  ;
+  padding: 50px;
+  margin: 10px;
+  box-shadow:20px 20px 50px #145A32;  
+  background: whitesmoke  ;
+  font-family: 'Open Sans', sans-serif;
+
+
+}
+form{
+  border-radius: 25px;
+  border: 2px  hidden  ;
+  padding: 50px;
+  margin-top: 100px;
+  box-shadow: 10px 10px 20px #145A32;  
+  background: whitesmoke  ;
+  align-items: center;
+
+}
+
+#formItems{
+  border-radius: 25px;
+  font-family: 'Open Sans', sans-serif;
+  width : 93%;
+  margin : 15px;
+  min-width: 300px;
+
+}
+
+#formHeader{
+  border-radius: 15px;
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Lobster', cursive;
+  color:  #196F3D ;
+  height: 50px;
+}
+
+#formBtn{
+  background: linear-gradient(90deg, #145A32 0%, #196F3D 25%,  #1E8449 50%, #229954 75%, #27AE60 100%);
+  color : white;
+  border-radius: 25px;
+  font-family: 'Open Sans', sans-serif;
+  width : 93%;
+  margin : 15px;
+  min-width: 300px;
+}
+
+.page-header{
+  background : transparent !important;
+  font-family: 'Lobster', cursive;
+  margin: 100px;
+
+}
+
+#createBtn{
+  background: linear-gradient(90deg, #145A32 0%, #196F3D 25%,  #1E8449 50%, #229954 75%, #27AE60 100%);
+  color : white;
+  font-family: 'Open Sans', sans-serif;
+  border: 0cm hidden;
+}
+
+#formError{
+  color: rgb(212, 13, 13);
+  font-size: small;
+  font-family: 'Open Sans', sans-serif;
+  width : 93%;
+  margin : 5px;
+}
+
+.card{
+  border-color: darkgreen !important;
+  width: 500px;
+  margin-top: 15px;
+}
+
+.card-header{
+  color: darkgreen !important;
+  font-family: 'Lobster', cursive;
+  text-align: center;
+  color: white;
+}
+ .card-body{
+  font-family: 'Open Sans', sans-serif;
+}
+ 
