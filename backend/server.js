@@ -1,5 +1,4 @@
 const express = require('express');
-const ejwt = require('express-jwt');
 const mongoose = require('mongoose');
 const cors = require('cors')
 const routes =  require('./routes/routes');
@@ -18,14 +17,7 @@ mongoose.connect('mongodb+srv://safw:allsafe21@notesapp-mxoqw.mongodb.net/<dbnam
         console.error(error)
     });
 
-/*app.use('/api', ejwt({ secret : process.env.SECRET }), 
-    (req,res, next) =>  {
-        if(req.user === undefined){
-            return res.status(401).json({message : "undifined user is jwt !"});
-        }
-        return res.status(200), next();;
-    }
-);*/
+
 app.use('/auth', user_routes);    
 app.use('/api', routes);
 
